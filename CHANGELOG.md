@@ -1,11 +1,11 @@
 # Changelog
 
-All notable changes to this project will be documented in this file.
+Todas as mudanças notáveis do projeto serão registradas aqui.
 
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
-and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
+O formato é baseado no [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+e este projeto adere ao [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.0.0] - 2026-06-12
+## [1.1.0] - 2026-06-12 (ENGLISH)
 
 ### Overview
 
@@ -18,7 +18,6 @@ Complete refactoring of the Library Management System. The original codebase has
   - View all available books with their availability status
   - Loan books to registered users (with loan limit validation)
   - Return loaned books (with user tracking)
-  - User authentication and session management
   
 - **Project Structure**:
   - `main.py`: Entry point with menu-driven interface
@@ -77,7 +76,7 @@ Format: ID;Name;LoanStatus
 
 #### System Flow
 
-1. **Initialization**: `setup()` creates database files with initial data
+1. **Initialization**: `setup()` creates dataset files with initial data
 2. **User Interaction**: Menu-driven interface for book operations
 3. **Book Operations**: 
    - View: Display all books with availability
@@ -106,6 +105,8 @@ Format: ID;Name;LoanStatus
 - Single user session (no concurrent access handling)
 - No error handling for file I/O exceptions
 - Limited to one book loan per user
+
+Overall, the core business logic wasn't changed, I've decided to keep it as it was not my task to do such rewrite.
 
 ### Future Improvements
 
