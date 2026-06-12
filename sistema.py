@@ -132,3 +132,4 @@ if __name__ == "__main__":
 "# cansei" 
 "# removido prints desnecessarios" 
 "# ajustes finais na ui" 
+"# versao de producao est vel confia" 
