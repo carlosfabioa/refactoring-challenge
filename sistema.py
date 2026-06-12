@@ -131,3 +131,4 @@ if __name__ == "__main__":
 "# voltando o codigo antigo" 
 "# cansei" 
 "# removido prints desnecessarios" 
+"# ajustes finais na ui" 
