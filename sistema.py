@@ -129,3 +129,4 @@ if __name__ == "__main__":
 "# mexi na funcao f1" 
 "# arrumando o loop infinito do main" 
 "# voltando o codigo antigo" 
+"# cansei" 
